@@ -8,3 +8,4 @@ for i in range(5):
 print(nombre,rut)
 nombre.sort()
 rut.sort()
+print(nombre,rut)
