@@ -24,7 +24,7 @@ for i in range(len(matriz1)):
         matriz1[i][j]+=matriz2[i][j]
 for i in range(len(matriz1)):
     for j in range(len(matriz1[0])):
-        print(matriz1[i][j],end='\n')
+        print(matriz1[i][j], end='\n')
 matriz3=[]
 columna=int(input("ingrese la cantidad de columnas: "))
 fila=int(input("ingrese la cantidad de filas: "))
@@ -39,4 +39,4 @@ for i in range(len(matriz1)):
         matriz1[i][j]-=matriz3[i][j]
 for i in range(len(matriz1)):
     for j in range(len(matriz1[0])):
-        print(matriz1[i][j],end='\n')
+        print(matriz1[i][j], end='\n')
